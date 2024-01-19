@@ -15,7 +15,7 @@ function removeOff() {
 
 colorOne.addEventListener('click', () => {
   removeOff()
-  colorOne.classList.toggle('col-one-off');
+  colorOne.classList.add('col-one-off');
   colorOne.style.outline = '2px solid blue';
 });
 
@@ -24,7 +24,7 @@ colorTwo.style.outline = '2px solid red';
 
 colorTwo.addEventListener('click', () => {
   removeOff()
-  colorTwo.classList.toggle('col-one-off');
+  colorTwo.classList.add('col-one-off');
   colorTwo.style.outline = '2px solid red';
 
 
@@ -32,7 +32,7 @@ colorTwo.addEventListener('click', () => {
 
 colorThree.addEventListener('click', () => {
   removeOff()
-  colorThree.classList.toggle('col-one-off');
+  colorThree.classList.add('col-one-off');
   colorThree.style.outline = '2px solid yellow';
 
 });
