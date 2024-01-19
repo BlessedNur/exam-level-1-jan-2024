@@ -40,6 +40,7 @@ tbody tr td{
 button{
   padding: 1em;
   border-radius: 5px;
+  cursor: pointer;
 }
 .button-one{
   background-color: #ff4500;
@@ -54,7 +55,7 @@ button{
   font-family: inherit;
 }
 .button-three{
-  background-color: #00ff80;
+  background-color: #008081;
   border: none;
   color: white;
   font-family: inherit;
