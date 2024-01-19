@@ -28,6 +28,7 @@ section {
 }
 
 .logo img {
+
   width: 15%;
 }
 
@@ -39,7 +40,7 @@ h1 {
 
 .shoe img {
   width: 100%;
-  filter: contrast(140%);
+  filter: contrast(140%) ;
 }
 
 .type-section {
@@ -67,14 +68,17 @@ h1 {
   border-radius: 50%;
   cursor: pointer;
 }
+.col-one-off{
+  outline-offset: 2px;
+}
 
 .color-two {
   width: 20px;
   height: 20px;
   background-color: red;
   border-radius: 50%;
-  outline: 2px solid red;
-  outline-offset: 2px;
+  /* outline: 2px solid red;
+  outline-offset: 2px; */
   cursor: pointer;
 
 }
