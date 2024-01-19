@@ -12,6 +12,7 @@ thead td{
 table{
   border:2px solid lightgray;
   text-align: center;
+  margin: auto;
 }
 tbody td,
 tfoot td{
