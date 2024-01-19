@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+table, td{
+  border-bottom: 2px solid lightgray;
+  border-collapse: collapse;
+}
+thead td{
+  padding: 1em 2.5em;
+}
+table{
+  border:2px solid lightgray;
+  text-align: center;
+}
+tbody td,
+tfoot td{
+  border-right: none;
+}
+td{
+  padding: .8em 2.5em;
+}
+thead{
+  color: white;
+}
+thead  td:nth-child(2){
+  background-color: #ff4500;
+}
+thead  td:nth-child(3){
+  background-color: #1e90ff;
+}
+thead  td:last-child{
+  background-color: #008081;
+}
+
+tbody tr td{
+  font-weight: 700;
+}
+button{
+  padding: 1em;
+  border-radius: 5px;
+}
+.button-one{
+  background-color: #ff4500;
+  border: none;
+  color: white;
+  font-family: inherit;
+}
+.button-two{
+  background-color: #1e90ff;
+  border: none;
+  color: white;
+  font-family: inherit;
+}
+.button-three{
+  background-color: #00ff80;
+  border: none;
+  color: white;
+  font-family: inherit;
+}
+.fa-check{
+  color: #00ff80;
+}
+.fa-xmark{
+  color: #f00;
+  color: #215281;
+}
